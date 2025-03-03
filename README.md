@@ -13,25 +13,29 @@ npm install @react-navigation/native
 ```
 
 
-# 2 react-native-screens  react-native-safe-area-context
+# 2 react-native-gesture-handler react-native-reanimated
  
 ```sh
-npm install react-native-screens react-native-safe-area-context
+npm install react-native-gesture-handler react-native-reanimated
+
+
 
 
 ```
 
-# 3 Native Stack Navigator
+# 3 Drawer navigation
+
 ```sh 
 
-npm install @react-navigation/native-stack
+
+npm install @react-navigation/drawer
 
 ```
 
 
 
 # Visit this website
-<a href="https://reactnavigation.org/docs/getting-started"  target="_blank"> Goto this website </a>
+<a href="https://reactnavigation.org/docs/drawer-navigator#installation"  target="_blank"> Goto this website </a>
 
 
 ```sh
