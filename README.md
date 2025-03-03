@@ -1,3 +1,69 @@
+
+
+# Install this, this is imp
+
+```sh
+npm install @react-navigation/native
+npm install @react-navigation/drawer
+npm install react-native-gesture-handler react-native-reanimated react-native-screens
+
+# if needed run this to execute the project
+npx react-native start --reset-cache
+
+```
+
+
+# IMP note 
+
+## this will work
+
+```sh
+
+export default function App() {
+  return (
+    <NavigationContainer >
+      <Drawer.Navigator>
+        <Drawer.Screen name="Home" component={HomeScreen} />
+        <Drawer.Screen name="About" component={AboutScreen} />
+      </Drawer.Navigator>
+    </NavigationContainer>
+
+    
+  );
+
+
+}
+
+
+```
+
+
+
+## this wont work bcoz  NavigationContainer cannot be added in the <View> or any component 
+```sh
+
+
+export default function App() {
+  return (
+<View>
+    <NavigationContainer >
+      <Drawer.Navigator>
+        <Drawer.Screen name="Home" component={HomeScreen} />
+        <Drawer.Screen name="About" component={AboutScreen} />
+      </Drawer.Navigator>
+    </NavigationContainer>
+</View>
+    
+  );
+
+
+}
+
+```
+
+
+##############################################################################
+
 #   Navigation  Application
 ```sh
 npx react-native run-android
