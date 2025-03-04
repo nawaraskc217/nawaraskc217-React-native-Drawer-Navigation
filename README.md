@@ -64,7 +64,7 @@ export default function App() {
 
 ##############################################################################
 
-#   Navigation  Application
+#   DrawerNavigationApp  
 ```sh
 npx react-native run-android
 
@@ -104,6 +104,8 @@ npm install @react-navigation/drawer
 <a href="https://reactnavigation.org/docs/drawer-navigator#installation"  target="_blank"> Goto this website </a>
 
 
+
+## if project is not running then follow this
 ```sh
 # If error create project on disk:
 C:\
